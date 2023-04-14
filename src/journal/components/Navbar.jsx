@@ -20,6 +20,7 @@ export default function Navbar({ drawerWidth }) {
           edge="start"
           color="inherit"
           sx={{ mr: 2, display: { sm: 'none' } }}
+          aria-label="menu"
         >
           <MenuIcon />
         </IconButton>
